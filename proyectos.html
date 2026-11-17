@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyectos | David Villavicencio</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header class="navbar">
+  <nav class="container nav-content">
+    <a href="index.html" class="logo">David<span>.dev</span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Inicio</a>
+      <a href="sobre-mi.html">Sobre mí</a>
+      <a href="habilidades.html">Habilidades</a>
+      <a href="experiencia.html">Experiencia</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="formacion.html">Formación</a>
+      <a href="contacto.html">Contacto</a>
+    </div>
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeBtn" aria-label="Cambiar tema">☀️</button>
+      <button class="icon-btn menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="page-banner">
+    <div class="container">
+      <span class="eyebrow">Desarrollo de software</span>
+      <h1>Mis <span class="gradient">proyectos tecnológicos</span></h1>
+      <p>Aplicaciones web, móviles, plataformas educativas y sistemas de gestión.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="container">
+
+      <div class="filters">
+        <button class="filter-btn active" data-filter="todos">Todos</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="movil">Móviles</button>
+        <button class="filter-btn" data-filter="sistemas">Sistemas</button>
+      </div>
+
+      <div class="grid">
+
+        <article class="card project-card reveal" data-category="web">
+          <div class="feature-icon">🎲</div>
+          <span class="tag">Plataforma educativa</span>
+          <h3>MoniPlay</h3>
+          <p>
+            Plataforma web educativa inspirada
+            en un juego de tablero, diseñada
+            para reforzar aprendizajes
+            mediante preguntas y actividades interactivas.
+          </p>
+          <p>
+            Incluye registro e inicio de sesión,
+            salas de juego, dados, tarjetas
+            de preguntas, tablero, clasificación,
+            logros y seguimiento del aprendizaje.
+          </p>
+          <p>
+            Cuenta con roles de estudiante,
+            docente y administrador.
+            Incorpora herramientas de gestión
+            de preguntas y niveles,
+            además de recuperación de partidas.
+          </p>
+          <div>
+            <span class="tag">Java Servlets</span>
+            <span class="tag">JDBC</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">WebSocket</span>
+          </div>
+        </article>
+
+        <article class="card project-card reveal" data-category="sistemas">
+          <div class="feature-icon">📦</div>
+          <span class="tag">Proyecto colaborativo</span>
+          <h3>Inventory-service</h3>
+          <p>
+            Sistema de gestión de inventarios
+            y operaciones de almacén
+            desarrollado mediante una arquitectura
+            de frontend y backend.
+          </p>
+          <p>
+            Contempla materiales, ubicaciones
+            de almacenamiento, entradas y salidas,
+            movimientos de inventario,
+            proyectos y órdenes de servicio.
+          </p>
+          <p>
+            Participación en el desarrollo frontend,
+            incluyendo funcionalidades
+            de administración de usuarios,
+            navegación y componentes de interfaz.
+          </p>
+          <div>
+            <span class="tag">Vue 3</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">Vite</span>
+            <span class="tag">Kotlin</span>
+            <span class="tag">Java</span>
+            <span class="tag">Gradle</span>
+            <span class="tag">PostgreSQL</span>
+          </div>
+          <a class="project-link"
+             href="https://github.com/RHurtado-Atlantic/Inventory-service"
+             target="_blank"
+             rel="noopener noreferrer">
+            Ver repositorio de GitHub ↗
+          </a>
+        </article>
+
+        <article class="card project-card reveal" data-category="web">
+          <div class="feature-icon">🌐</div>
+          <span class="tag">Proyecto web</span>
+          <h3>PuertoSolutions</h3>
+          <p>
+            Proyecto de desarrollo web
+            orientado a presentar información
+            y servicios mediante
+            una interfaz digital organizada.
+          </p>
+          <p>
+            Trabajo relacionado con la estructura
+            de páginas, presentación de contenidos,
+            diseño de interfaz y navegación.
+          </p>
+          <p>
+            El proyecto forma parte
+            de los trabajos de desarrollo web
+            realizados anteriormente.
+          </p>
+          <div>
+            <span class="tag">Desarrollo web</span>
+            <span class="tag">Diseño de interfaces</span>
+            <span class="tag">Navegación</span>
+          </div>
+        </article>
+
+        <article class="card project-card reveal" data-category="movil">
+          <div class="feature-icon">🗳️</div>
+          <span class="tag">Proyecto académico · 2026</span>
+          <h3>Transparencia Perú</h3>
+          <p>
+            Aplicación Android de consulta
+            centralizada de información electoral.
+          </p>
+          <p>
+            Integra autenticación de usuarios,
+            información de candidatos,
+            propuestas, resultados,
+            cronogramas electorales,
+            mapas y encuestas.
+          </p>
+          <p>
+            Utiliza una arquitectura MVVM
+            y servicios Firebase
+            para autenticación y almacenamiento,
+            con diferentes roles de usuario.
+          </p>
+          <div>
+            <span class="tag">Kotlin</span>
+            <span class="tag">Android Jetpack</span>
+            <span class="tag">MVVM</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Google Maps</span>
+          </div>
+        </article>
+
+        <article class="card project-card reveal" data-category="movil">
+          <div class="feature-icon">🗺️</div>
+          <span class="tag">Proyecto académico · 2025</span>
+          <h3>GeoDengue</h3>
+          <p>
+            Aplicación móvil para apoyar
+            la identificación y visualización
+            de zonas relacionadas
+            con brotes de dengue.
+          </p>
+          <p>
+            Contempla el registro,
+            validación y geolocalización
+            de información mediante mapas,
+            además de administración
+            de datos y acceso por roles.
+          </p>
+          <p>
+            Desarrollo académico con Kotlin,
+            Firebase y servicios de mapas,
+            utilizando la metodología Mobile-D.
+          </p>
+          <div>
+            <span class="tag">Android Studio</span>
+            <span class="tag">Kotlin</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Firestore</span>
+            <span class="tag">Google Maps</span>
+          </div>
+        </article>
+
+        <article class="card project-card reveal" data-category="sistemas">
+          <div class="feature-icon">🏥</div>
+          <span class="tag">Experiencia profesional</span>
+          <h3>Soluciones informáticas para EsSalud</h3>
+          <p>
+            Participación en el desarrollo,
+            mantenimiento y mejora
+            de aplicaciones destinadas
+            a apoyar procesos internos
+            de la Red Asistencial Áncash.
+          </p>
+          <p>
+            Actividades relacionadas
+            con implementación de funcionalidades,
+            mantenimiento de módulos,
+            atención de incidencias,
+            pruebas funcionales
+            y soporte a usuarios.
+          </p>
+          <p>
+            Experiencia en soluciones web,
+            desarrollo móvil,
+            integración de información
+            y mantenimiento de sistemas.
+          </p>
+          <div>
+            <span class="tag">Aplicaciones web</span>
+            <span class="tag">Desarrollo móvil</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Soporte TI</span>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="button-row" style="justify-content:center">
+        <a href="experiencia.html" class="btn">Mi experiencia profesional</a>
+        <a href="contacto.html" class="btn btn-outline">Contactar</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p><strong>David Villavicencio Alvarez</strong></p>
+  <p>© <span id="year"></span> · Proyectos tecnológicos</p>
+  <a href="index.html">Volver al inicio ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
